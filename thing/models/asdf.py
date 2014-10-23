@@ -1,8 +1,4 @@
 from thing.models.shared import db
-# from thing import app
-# from flask_sqlalchemy import SQLAlchemy
-
-# db = SQLAlchemy(app)
 
 class Thing(db.Model):
     __tablename__ = 'things'
