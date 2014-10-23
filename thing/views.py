@@ -1,5 +1,7 @@
 from flask import Blueprint
-from thing.models import Thing
+
+from models.models import Thing
+
 
 basic = Blueprint('basic', __name__)
 

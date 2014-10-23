@@ -9,3 +9,5 @@ Need to create database on initial start, using manager? Can't remember. Either 
 >>> from thing import db
 >>> db.create_all()
 ```
+
+Moved models to its own package to demonstrate a point. It works.
